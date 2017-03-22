@@ -1,0 +1,59 @@
+<%= stylesheet_link_tag    'pages/002_checkout', media: 'all' %>
+
+<div class="container">
+  <div class="triangle1">
+  </div>
+  <div class="triangle2">
+  </div>
+
+  <div class="order-container">
+    <table>
+      <tr>
+        <th>Your Order<th>
+      </tr>
+      <tbody>
+      <tr>
+        <td>1 &times; Midori Traveler's Notebook Brown Leather</td>
+        <td>$39.95</td>
+      </tr>
+      <tr>
+        <td>5 &times; Midori Traveler's Notebook Refill 001 Ruled</td>
+        <td>$9.98</td>
+      </tr>
+      <tr>
+        <td><strong>Total Price</strong></td>
+        <td><strong>$49.97</strong></td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+
+  <div class="checkout">
+    <div id="checkout_form">
+      <input id="card_name"
+             class="checkout_field"
+             type="text"
+             placeholder="Cardholder Name"
+             maxlength="26"
+             value="">
+      <input id="card_number"
+             class="checkout_field"
+             type="number"
+             placeholder="Card Number"
+             value="">
+      <input id="card_exp"
+             class="checkout_field"
+             type="number"
+             maxlength="4"
+             placeholder="MM/YY"
+             value="">
+      <input id="card_cvv"
+             class="checkout_field"
+             type="number"
+             placeholder="CVV"
+             value="">
+      <div id="card_brand">
+      </div>
+    </div>
+  </div>
+</div>
